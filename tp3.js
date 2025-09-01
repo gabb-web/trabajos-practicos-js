@@ -54,3 +54,47 @@
 // for (let i = 2; i <= 12; i++) {
 //   console.log(`Suma ${i}: ${apariciones[i]} apariciones`);
 // }
+
+//ejercicio 4
+
+// function parOImpar(numero) {
+//   return numero % 2 === 0 ? "El número es par" : "El número es impar";
+// }
+
+// console.log(parOImpar(7)); 
+
+//ejercicio 5
+
+// function analizarCadena(cadena) {
+//   if (cadena === cadena.toUpperCase()) {
+//     console.log("La cadena está formada solo por MAYÚSCULAS.");
+//   } else if (cadena === cadena.toLowerCase()) {
+//     console.log("La cadena está formada solo por minúsculas.");
+//   } else {
+//     console.log("La cadena contiene una mezcla de mayúsculas y minúsculas.");
+//   }
+// }
+
+// analizarCadena("Hola Mundo"); // Ejemplo
+
+//ejercicio 6 
+// function calcularPerimetro(a, b) {
+//   return 2 * (a + b);
+// }
+
+// const ladoA = parseInt(prompt("Ingrese el lado A:"));
+// const ladoB = parseInt(prompt("Ingrese el lado B:"));
+// const perimetro = calcularPerimetro(ladoA, ladoB);
+
+// console.log(`El perímetro es: ${perimetro}`);
+
+
+//ejercicio 7 
+function tablaMultiplicar(numero) {
+  for (let i = 1; i <= 10; i++) {
+    console.log(`${numero} x ${i} = ${numero * i}`);
+  }
+}
+
+const num = parseInt(prompt("Ingrese un número para ver su tabla de multiplicar:"));
+tablaMultiplicar(num);
